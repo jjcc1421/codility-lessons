@@ -1,0 +1,15 @@
+{
+  "name": "challenges",
+  "version": "1.0.0",
+  "description": "My codility challenge excercises",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter list ./**/*.test.js" 
+  },
+  "author": "",
+  "license": "ISC"
+}
