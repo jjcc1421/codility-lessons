@@ -2,9 +2,16 @@ const assert = require('assert')
 const fish = require('./fish')
 describe('Fish exercise test', ()=>{
   it('Should give result of 1', ()=>{
+    const expected = 1;
     const A = [1,2]
     const B = [1,0]
-    assert.equal(fish.solution(A,B),1)
+    assert.equal(fish.solution(A,B),expected)
+  })
+  it('Should give result of 2', ()=>{
+    const expected = 2;
+    const A = [1,2]
+    const B = [0,1]
+    assert.equal(fish.solution(A,B),expected)
   })
   it('Should give result of 2', ()=>{
     const count =10000000
