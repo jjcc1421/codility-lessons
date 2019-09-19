@@ -8,8 +8,8 @@
     "mocha": "^6.2.0"
   },
   "scripts": {
-    "test": "mocha --reporter list ./**/*.test.js" 
+    "test": "mocha --reporter list ./**/*.test.js"
   },
-  "author": "",
+  "author": "Juan Caicedo <jjcc1421>",
   "license": "ISC"
 }
