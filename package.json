@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.3"
   },
   "scripts": {
     "test": "mocha --reporter list ./**/*.test.js"
